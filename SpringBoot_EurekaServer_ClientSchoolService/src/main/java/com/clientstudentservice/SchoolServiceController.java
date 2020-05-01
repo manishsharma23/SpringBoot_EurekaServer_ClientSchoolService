@@ -25,7 +25,7 @@ public class SchoolServiceController {
 				}, schoolname).getBody();
 		System.out.println("Response Received as " + response);
 
-		return "School Name -  " + schoolname + " \n Student Details " + response;
+		return "School Name - " + schoolname + " \n Student Details " + response;
 	}
 
 	@Bean
